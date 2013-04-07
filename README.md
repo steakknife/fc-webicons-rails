@@ -5,7 +5,7 @@
     
     gem install fc-webicons
 
-    # or using bundler
+    # or using bundler, add this to your Gemfile
     gem 'fc-webicons'
 
 ## Usage
