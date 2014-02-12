@@ -1,7 +1,6 @@
 # Fairhead Creative Webicons
 
 ## Installation
-
     
     gem install fc-webicons
 

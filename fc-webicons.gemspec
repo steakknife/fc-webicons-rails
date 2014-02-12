@@ -18,5 +18,6 @@ EOF
   s.test_files = Dir['test/**/*']
 
   s.add_dependency 'railties', '>= 3.1'
-  s.add_development_dependency 'rails', '~> 3.2.13'
+  s.add_development_dependency 'rails', '>= 3.2.13'
 end
+.tap {|gem| gem.signing_key = File.expand_path(File.join('~/.keys', 'gem-private_key.pem')) ; gem.cert_chain = ['gem-public_cert.pem']} # pressed firmly by waxseal
