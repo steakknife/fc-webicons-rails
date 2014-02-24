@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.version = FCWebicons::VERSION
   s.authors = ['Barry Allard']
   s.email = ['barry.allard@gmail.com']
-  s.homepage = 'https://github.com/steakknife/fc-webicons'
+  s.homepage = 'https://github.com/steakknife/fc-webicons-rails'
   s.summary = 'Resolution-independent social icons for your website'
   s.license = 'MIT'
   s.description = <<-EOF
